@@ -3,7 +3,7 @@
 FROM ubuntu:latest
 MAINTAINER Andre Jeanmaire <andre@jeanmaire.nl>
 
-ENV T_LANG NLD
+ENV T_LANG nld
 
 RUN locale-gen en_US.UTF-8  
 ENV LANG en_US.UTF-8  
